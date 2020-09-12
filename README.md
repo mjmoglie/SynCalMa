@@ -7,7 +7,7 @@ Procedure:
 2.	Open the Image to be analyzed and keep it in front. 
 3.	Execute CalciumImagingAnalysis(). This will open a Menu that will give the chance to load all the analysis parameters 
 
-<img src=https://github.com/mjmoglie/SynCalMa/ blob/master/IMAGENES/MENU.png width="700">
+<img src=https://github.com/mjmoglie/SynCalMa/blob/master/IMAGENES/MENU.png width="700">
  
 •	Photobleaching Correction: photobleaching will be corrected by fitting a straight line to the fluorescence signal obtained after averaging the signal of ROIs comprised from Photobleaching PRE- Photobleaching POST. If these present the same number, all ROIs will be averaged. It should be noted that these number should be higher than the total number of ROIs (#ROIs=360/Angle)
 •	Analysis Output: select whether the result will be expressed as DeltaF/F0 or Delta F.
@@ -22,7 +22,7 @@ v.	Stimulus Time (ms): This will allow to define when was the stimulus applied (
 •	Location Properties: 
 i.	X-Center & Y-Center: Position of the center of the circunference that will be analyzed .  It will only be considered if “Automatic center determination” is not selected. 
 ii.	External Radius: external radious of the circumference delimited. It is expressed in number of pixels. 
-iii.	Angle: determines each ROI size (# ROIs= 360/Angle) 
+iii.	Angle: determines each ROI size (# ROIs= 360/Angle)
 
-<img src=https://github.com/mjmoglie/SynCalMa /blob/master/IMAGENES/Dise%C3%B1o%20ROI.png width="350">
+<img src=https://github.com/mjmoglie/SynCalMa/blob/master/IMAGENES/Dise%C3%B1o%20ROI.png width="350">
 
