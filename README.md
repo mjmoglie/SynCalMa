@@ -34,7 +34,7 @@
  	-	Integral Criteria: threshold area under the curve of the fluorescence signal
  	-	Threshold Min & Threshold Max: relative fluorescence signal of the delimited signal that will be considered for analysis. A threshold of the normalized fluorescence signal  will be performed, obtaining a donut shaped mask
 
-<img src=https://github.com/mjmoglie/ SynCalMa/blob/master/IMAGENES/Dise%C3%B1o%20ROI%20y%20MASCARA.png width="350">
+<img src=https://github.com/mjmoglie/SynCalMa/blob/master/IMAGENES/Dise%C3%B1o%20ROI%20y%20MASCARA.png width="350">
 
 4.	Once the parameters were loaded, hit “Start Background-ROI Draw” and draw the ROI that will be used to obtain the background fluorescence signal. If no ROI is drawn, it will search for a previously created one.
 
@@ -42,16 +42,16 @@
 
 6.	The output of the macro Will be stored in a folder with the following structure:  “IMAGE NAME+’_’+F_(# FILE)_V_(# VERSION)”. It will contain the following waves: 
   -	AutoROIAnalVar: string containing the analysis parameters.
-		-	ROIMasksThreshold: Donut shaped mask obtained by setting Threshold Min & Threshold Max.
-		-	ROIMasks: each layer of this wave contains the Mask generated for each ROI
+	-	ROIMasksThreshold: Donut shaped mask obtained by setting Threshold Min & Threshold Max.
+	-	ROIMasks: each layer of this wave contains the Mask generated for each ROI
   - ROIMasks_Back: ROI used to calculate the background fluorescence 
  	-	Back: Background fluorescence signal
   - BaselineF: two dimensional wave in which the baseline fluorescence signal of each ROI is indicated for each sweep.
   -	Amplitude: two dimensional wave in which the amplitude of the fluorescence signal obtained for each ROI in each sweep is depicted. Only those peaks that met the requirements set will show the value obtained. 
- -  PeakTime: Time in which the maximal peak was detected for each ROI in every sweep.
- - 	Integral_area: Area under the fluorescence signal curve obtained for each ROI in every sweep.
- - 	TauImaging: Exponential decay of the fluorescence signal for each ROI in every sweep.
- - 	ProbabilityROIS: Probability of getting a significant fluorescence signal in each of the ROIs obtained. 
- - 	ConcatenatedSweeps: This wave contains the processed fluorescence signal for each of the ROIs drawn. Each sweep will be normalized to its own baseline, photobleaching corrected and background subtracted.
+	- PeakTime: Time in which the maximal peak was detected for each ROI in every sweep.
+ 	-	Integral_area: Area under the fluorescence signal curve obtained for each ROI in every sweep.
+ 	-	TauImaging: Exponential decay of the fluorescence signal for each ROI in every sweep.
+ 	-	ProbabilityROIS: Probability of getting a significant fluorescence signal in each of the ROIs obtained. 
+ 	-	ConcatenatedSweeps: This wave contains the processed fluorescence signal for each of the ROIs drawn. Each sweep will be normalized to its own baseline, photobleaching corrected and background subtracted.
 
 <img src=https://github.com/mjmoglie/SynCalMa/blob/master/IMAGENES/CONCATENADO%20DE%20ROIS.png width="450">
