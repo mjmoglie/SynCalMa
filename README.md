@@ -1,4 +1,4 @@
-##SynCalMa
+#SynCalMa
 
 Requirements: 
 - Igor Pro 6.37
@@ -11,14 +11,10 @@ Procedure:
 
 <img src=https://github.com/mjmoglie/SynCalMa/blob/master/IMAGENES/MENU.png width="700">
  
-•	Photobleaching Correction: photobleaching will be corrected by fitting a straight line to the fluorescence signal obtained after averaging the signal of ROIs comprised from Photobleaching PRE- Photobleaching POST. If these present the same number, all ROIs will be averaged. It should be noted that these number should be higher than the total number of ROIs (#ROIs=360/Angle)
-
+•	Photobleaching Correction: photobleaching will be corrected by fitting a straight line to the fluorescence signal obtained after averaging the signal of ROIs comprised from Photobleaching PRE- Photobleaching POST. If these present the same number, all ROIs will be averaged. It should be noted that these number should be higher than the total number of ROIs (#ROIs=360/Angle).
 •	Analysis Output: select whether the result will be expressed as DeltaF/F0 or Delta F.
-
 •	Automatic Center Determination: Determines the center of the cell by automatic thresholding followed by a particle analysis. The center will be the center of mass of the biggest particle detected. When this option is not selected, the center of the analysis has to be manually determined in “X center” and “Y center”. 
-
 •	Smooth ROI traces: When selected, it will perform an additional smooth operation over the final fluorescence traces.
-
 •	File Properties: 
  i.	FILE: file number (only for anotation purpurses)
 
