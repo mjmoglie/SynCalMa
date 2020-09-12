@@ -1,3 +1,5 @@
+##SynCalMa
+
 Requirements: 
 - Igor Pro 6.37
 - Image Analysis Package SARFIA from IgorExchange: http://www.igorexchange.com/project/SARFIA
