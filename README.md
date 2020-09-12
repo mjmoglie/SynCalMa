@@ -1,10 +1,10 @@
-#SynCalMa
+# SynCalMa
 
-##Requirements: 
+## Requirements: 
 - Igor Pro 6.37
 - Image Analysis Package SARFIA from IgorExchange: http://www.igorexchange.com/project/SARFIA
 
-##Procedure: 
+## Procedure: 
 1.	Load the images as a TIFF Stack. They should be accompanied by a Wave containing the acquisition time of each frame. The name of that wave should be: “Timewave_”+ “ImageName”,  where “ImageName” refers to the exact full name of the image loaded.
 2.	Open the Image to be analyzed and keep it in front. 
 3.	Execute CalciumImagingAnalysis(). This will open a Menu that will give the chance to load all the analysis parameters 
@@ -37,7 +37,9 @@
 <img src=https://github.com/mjmoglie/ SynCalMa/blob/master/IMAGENES/Dise%C3%B1o%20ROI%20y%20MASCARA.png width="350">
 
 4.	Once the parameters were loaded, hit “Start Background-ROI Draw” and draw the ROI that will be used to obtain the background fluorescence signal. If no ROI is drawn, it will search for a previously created one.
+
 5.	Pres “Finish Background-ROI” to start the automated analysis. 
+
 6.	The output of the macro Will be stored in a folder with the following structure:  “IMAGE NAME+’_’+F_(# FILE)_V_(# VERSION)”. It will contain the following waves: 
   -	AutoROIAnalVar: string containing the analysis parameters.
 		-	ROIMasksThreshold: Donut shaped mask obtained by setting Threshold Min & Threshold Max.
